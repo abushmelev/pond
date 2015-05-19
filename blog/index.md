@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Blog
-excerpt: "An archive of blog posts sorted by date."
+title: Дневник прудика 
+excerpt: "Жизнь прудика день за днем, сезон за сезоном, год за годом"
 search_omit: true
+image:
+  feature: so-simple-sample-image-4.jpg
 ---
 
 <ul class="post-list">
