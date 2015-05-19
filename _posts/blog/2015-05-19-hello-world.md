@@ -9,6 +9,8 @@ tags: []
 image:
   feature:
 date: 2015-05-19
+comments: true
+share: true
 ---
 
 Привет, Мир!
