@@ -1,5 +1,8 @@
 # Site navigation links
 
+- title: Дом
+  url: /
+
 - title: "О сайте" 
   url: /about/
 
