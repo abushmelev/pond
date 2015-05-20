@@ -7,7 +7,7 @@ logo: site-logo.png
 search: true
 #url: http://localhost:4000
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://abushmelev.github.io" # the base hostname & protocol for your site
+url: "https://pond.bushmelev.ru" # the base hostname & protocol for your site
 
 # Jekyll configuration
 
