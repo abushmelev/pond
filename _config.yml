@@ -36,19 +36,19 @@ owner:
   name: Александр Бушмелев 
   avatar: alexander-photo.jpg
   email: bushmelev@gmail.com
-  disqus-shortname:
-  twitter: #username
-  facebook: #bushmelev
-  github: #abushmelev
+  disqus-shortname: pond-bushmelev
+  twitter: bushmelev
+  facebook: bushmelev
+  github: abushmelev
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: bushmelev
   instagram: #bushmelev
   flickr: #username
   tumblr: #username
   pinterest: #username
   weibo: #userid
   google:
-    plus: #bushmelev
+    plus: bushmelev
     analytics:
     verify:
     ad-client:
