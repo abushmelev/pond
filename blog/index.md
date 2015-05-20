@@ -4,7 +4,7 @@ title: Дневник прудика
 excerpt: "Жизнь прудика день за днем, сезон за сезоном, год за годом"
 search_omit: true
 image:
-  feature: so-simple-sample-image-4.jpg
+  feature: pond-title-white-lily.jpg
 ---
 
 <ul class="post-list">

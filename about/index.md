@@ -5,7 +5,7 @@ title_alias: about
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 modified: 2015-05-19
 image:
-  feature: so-simple-sample-image-4.jpg
+  feature: pond-title-koi-2.jpg
   credit: "Миры Бушмелевых" 
   creditlink: http://bushmelev.ru/item/223-pond-source.html
 ---

@@ -4,7 +4,7 @@ title: Околопрудные записи
 excerpt: "Заметки на тему пруда и все что вокруг него"
 search_omit: true
 image:
-  feature: so-simple-sample-image-4.jpg
+  feature: pond-title-pink-lily.jpg
 ---
 
 <ul class="post-list">
