@@ -4,7 +4,7 @@ title: Прудик "Жемчужина Буняково". Акт первый. 
 excerpt: "О том, как после долгих многолетних колебаний и размышлений в течении месяца был сооружен пруд"
 modified: 2015-05-20
 categories: articles
-tags: [sample-post]
+tags: [прудик]
 image:
   feature: story/creation/pond-title-created.jpg
 comments: true
