@@ -5,10 +5,10 @@
 {% if author.twitter %}<meta name="twitter:creator" content="@{{ author.twitter }}">{% endif %}
 {% if page.image.feature %}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ '/images/' | prepend: site.baseurl }}{{ page.image.feature }}">
+<meta name="twitter:image" content="{{ site.url }}{{ '/images/' | prepend: site.baseurl }}{{ page.image.feature }}" />
 {% else %}
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{% if page.image.feature %}{{ site.url }}/images/{{ page.image.feature }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
+<meta name="twitter:image" content="{{ site.url }}{{ '/images/' | prepend: site.baseurl }}{{ site.logo }}" />
 {% endif %}
 
 <!-- Open Graph -->
@@ -20,7 +20,7 @@
 
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
 <meta property="og:site_name" content="{{ site.title }}" />
-<meta property="og:image" content="{% if page.image.feature %}{{ site.url }}{{ '/images/' | prepend: site.baseurl }}{{ page.image.feature }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}" />
+<meta property="og:image" content="{% if page.image.feature %}{{ site.url }}{{ '/images/' | prepend: site.baseurl }}{{ page.image.feature }}{% else %}{{ site.url }}{{ '/images/' | prepend: site.baseurl }}{{ site.logo }}{% endif %}" />
 <!-- 
 {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
@@ -34,3 +34,6 @@
 <meta property="fb:admins" content="{{ site.fb_admins }}">
 <meta property="fb:app_id" content="{{ site.fb_appid }}">
  -->
+ 
+ <!-- Integrating Google+ Authorship -->
+<link rel="author" href="https://plus.google.com/+{{ author.google.plus }}">
