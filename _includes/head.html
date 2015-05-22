@@ -1,6 +1,19 @@
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-{% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+
+{% if page.excerpt %}
+{% assign desc_long  = page.excerpt %}
+{% else %}
+{% assign desc_long  = page.content %}
+{% endif %}
+
+{% if desc_long contains site.excerpt_separator %}
+{% assign desc = desc_long | split:site.excerpt_separator | first | strip_html | truncatewords:50 %}
+{% else %}
+{% assign desc = desc_long | strip_html | truncatewords:50 %}
+{% endif %}
+
+<meta name="description" content="{{ desc }}">
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 {% if page.author %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
