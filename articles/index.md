@@ -4,7 +4,7 @@ title: Околопрудные записи
 excerpt: "Заметки на тему пруда и все что вокруг него"
 search_omit: true
 image:
-  feature: pond-title-pink-lily.jpg
+  feature: pond-title-nimphea.jpg
 ---
 
 <ul class="post-list">
