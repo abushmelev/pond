@@ -4,7 +4,7 @@ title: Стрекозы нашего пруда
 excerpt: Какой же пруд без стрекоз? Говорят, что стрекозы, как птицы живут и размножаются в определенном месте.
 icon: fa fa-plug
 date: 2015-06-07
-modified: 2015-06-07
+modified: 2015-06-13
 layout: post
 categories: [articles]
 tags: [пруд, стрекоза]
@@ -51,5 +51,12 @@ share: true
     <figcaption>Аварийная посадка на воду. Экипаж спасен.</figcaption>
 </figure>
 
+<a name="dragonfly-2015-06-13">Зарядка вертолетика стрекозы на сусаке</a>
+
+<figure class="half">
+    <a href="/images/story/2015-06-13/DSC03810.jpg"><img alt="Стрекоза и сусак" title="Стрекоза и сусак" src="/images/story/2015-06-13/DSC03810.jpg"></a>
+    <a href="/images/story/2015-06-13/DSC03806.jpg"><img alt="Стрекоза отдыхает перед перелетом" title="Стрекоза отдыхает перед перелетом" src="/images/story/2015-06-13/DSC03806.jpg"></a>
+    <figcaption>Фотожертва - стрекоза на сусаке</figcaption>
+</figure>
 
 
