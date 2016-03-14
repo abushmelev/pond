@@ -13,7 +13,7 @@ url: "http://pond.bushmelev.ru" # the base hostname & protocol for your site
 
 #permalink:   /:categories_alias/:title_alias/
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
